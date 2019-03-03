@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="icon" href="../Images/webfavicon.png">
+<link rel = "stylesheet" href = "https://bootswatch.com/3/darkly/bootstrap.min.css">
+<link rel = "stylesheet" href = "../styles.css">
+<link rel = "stylesheet" href = "../buttonstyle.css">
+<script src = "./setowncountdown.js"></script>
+<script src = "../countdown.js"></script>
+<script src = "./checks.js"></script>
+<script src = "../ranstring.js"></script>
+<script src = "../time.js"></script>
+
+<title>TimerBriber: Own Countdown</title>
+
+</head>
+
+<body onload = "onload()">
+
+<noscript>
+<meta http-equiv="refresh" content="0;url=noscript.html" target = "_blank">
+</noscript>
+
+<nav class="navbar navbar-default">
+<ul class="nav navbar-nav">
+<li><a href="../Home/index.html">TimerBriber</a></li>
+<li><a href="../BlackOps4/index.html">Black Ops 4</a></li>
+<li><a href = "../Changelog/index.html">Changelog</a></li>
+<li><a href="../Fortnite/index.html">Fortnite</a></li>
+<li><a href="../RocketLeague/index.html">Rocket League</a></li>
+<li><a href = "../SeasonalEvents/index.html">Seasonal Events</a></li>
+<li><a href = "../OwnCountdown/index.html">Make your own countdown</a></li>
+<li><a href = "../Team/index.html">Team</a></li>
+</ul>
+</nav>
+
+<div class="container">
+
+<center>
+
+<webtitle>Make your own countdown</webtitle>
+
+<br>
+
+<div class = "webpic"></div><br>
+<p id = "currenttime">Unable to fetch the current time :(</p>
+
+<h3 id = "nojavascript">Your JavaScript is disabled. In order for the website to work, you need it enabled. Search up on the web on how to enable it.</h3>
+
+<p id = "notice" style = "color: red;">If you refresh your page, any countdown you had set will be lost. Therefore, you would have to set a countdown again. This message will disappear when you set a countdown.</p>
+
+</center>
+
+<hr><br>
+
+<div style = "display: block;" id = "userform">
+
+<p>Enter the date & year. (MUST be formatted LIKE the following: Jan 1, 1900)</p>
+<input type = "text" class = "form-control" id = "dateyear" style = "width: 250px; height: 45px; font-size: 30px;" placeholder = "Jan 1, 1900" maxlength = "12">
+
+<br>
+
+<p>Enter the hours, minutes, and seconds in the day your countdown ends in 24 hour format.</p>
+<input type="text" class = "form-control" id = "hhmmss" style = "width:200px; height: 45px; font-size: 30px;" placeholder = "00:00:00" maxlength="8">
+
+<br>
+
+<p>Enter the title of the countdown.</p>
+<input type="text" class = "form-control" id = "title" style = "width:50%; height: 7%; font-size: 30px;" placeholder = "Next Battle Pass" maxlength="50">
+
+<hr><br>
+
+<p>Enter the title you want to show up when the timer ends.</p>
+<input type = "text" class = "form-control" id = "header" style = "width: 50%; height: 7%; font-size: 30px;" placeholder = "Happy New Year!" maxlength = "40">
+
+<br>
+
+<p>Enter the description you want to show up when the timer ends.</p>
+<input type = "text" class = "form-control" id = "description" style = "width: 50%; height: 7%; font-size: 30px;" placeholder = "Have a great year!" maxlength = "100">
+
+<br><br>
+
+<button type="button" class = "btn btn-primary btn-lg" onclick = "process()" id = "sub">Submit</button>
+
+<br>
+
+<h3 style = "color:red;" id = "errormessage"></h3>
+
+</div>
+
+<div style = "display: none;" id = "afteruser">
+
+<center>
+
+<h1 id = "occountdown"></h1>
+<h3 id = "ocenddate"></h3>
+<h3 id = "ocversion"></h3>
+
+<br>
+
+<div class="count">
+<div class="countd">
+<span id = "ocdays">0</span>
+days
+</div>
+
+<div class="countd">
+<span id = "ochours">0</span>
+hours
+</div>
+
+<div class="countd">
+<span id = "ocminutes">0</span>
+minutes
+</div>
+
+<div class="countd">
+<span id = "ocseconds">0</span>
+seconds
+</div>
+</div>
+
+</center>
+
+<hr><br>
+
+<center>
+<button type="button" onclick = "location.reload()" class = "btn btn-danger btn-lg">Remove this timer and make another one</button>
+</center>
+
+</div>
+<hr>
+
+</body>
+</html>

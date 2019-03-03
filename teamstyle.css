@@ -1,0 +1,41 @@
+.dev {
+font-family:impact;
+display: inline-block;
+-webkit-text-fill-color: transparent;
+background: -webkit-linear-gradient(transparent, transparent),
+url(https://www.shrinktank.com/wp-content/uploads/2015/04/bubbles-moving.gif) repeat;
+background: -o-linear-gradient(transparent, transparent);
+-webkit-background-clip: text;
+}
+
+.helper {
+font-family:impact;
+display: inline-block;
+-webkit-text-fill-color: transparent;
+background: -webkit-linear-gradient(transparent, transparent),
+url(https://metrouk2.files.wordpress.com/2015/01/glitter-gif.gif?quality=90&strip=all&zoom=1&resize=540%2C300) repeat;
+background: -o-linear-gradient(transparent, transparent);
+-webkit-background-clip: text;
+}
+
+.imgclass {
+height: 150px;
+width: 150px;
+display: inline-block;
+}
+
+h3 {
+font-size: 70px;
+}
+
+h4 {
+font-size:25px;
+}
+
+.fit {
+width: 800px;
+}
+
+.container {
+background-color: #292929;
+}

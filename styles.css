@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+
+h1, h2, h3, h4, h5, h6, p, div, span, webtitle, input, ul, li {
+  font-family: 'Gaegu', sans-serif;
+}
+
+h1 {
+font-size:90px;
+}
+
+h2 {
+font-size:70px;
+}
+
+h3 {
+font-size: 25px;
+}
+
+h4 {
+font-size: 20px;
+}
+
+
+p {
+font-size: 20px;
+}
+
+ul {
+font-size:20px;
+}
+
+li:hover {
+background-color: #484848;
+}
+
+.fit {
+width: 1000px;
+word-wrap: break-word;
+}
+
+.navbar {
+background-color: #333;
+color: white;
+}
+
+.count{
+margin: 40px 0;
+}
+
+.countd {
+display: inline-block;
+width: 180px;
+height: 130px;
+border: 2px solid;
+margin: 0 40px;
+font-size: 30px;
+border-radius: 50%;
+overflow: hidden;
+color: white;
+}
+
+.countd span {
+display: block;
+font-size: 40px;
+margin-top: 14px;
+}
+
+.fade {
+opacity: 1;
+transition: 1s all ease;
+-moz-transition: opacity .5s ease-in-out;
+-webkit-transition: opacity .5s ease-in-out;
+}
+
+.fade:hover {
+opacity: 0.3;
+}
+
+.column {
+float: left;
+margin: 0px 0px 15px 50px;
+}
+
+.introduction {
+display: inline-block;
+}
+
+.container {
+background-color: #292929;
+}
+
+.chcontainer {
+background-color: #333333;
+}
+
+.fnitepic {
+background-image: url("./Images/fn.png");
+height: 260px;
+width: 260px;
+background-repeat: no-repeat fixed;
+background-size: cover;
+background-position: center;
+}
+
+.rlpic {
+background-image: url("./Images/rl.png");
+height: 260px;
+width: 260px;
+background-repeat: no-repeat fixed;
+background-size: cover;
+background-position: center;
+}
+
+.bo4pic {
+background-image: url("./Images/bo4.jpg");
+height: 260px;
+width: 260px;
+background-repeat: no-repeat fixed;
+background-size: cover;
+background-position: center;
+}
+
+
+.seasonalevent {
+background-image: url("./Images/seasonalevent.png");
+height: 260px;
+width: 260px;
+background-repeat: no-repeat fixed;
+background-size: cover;
+background-position: center;
+outline: none;
+}
+
+.webpic {
+background-image: url("./Images/webfavicon.png");
+height: 260px;
+width: 260px;
+background-repeat: no-repeat fixed;
+background-size: cover;
+background-position: center;
+}
+
+tbheader {
+color: grey;
+font-weight: bold;
+font-size:70px;
+}
+
+version {
+text-decoration: underline;
+font-weight: bold;
+display: inline-block;
+font-size: 85px;
+}
+
+webtitle {
+font-size: 100px;
+color:white;
+}
